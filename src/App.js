@@ -13,12 +13,20 @@ function App() {
   }, []);
 
   async function handleAddRepository() {
-    // TODO
+    const title = prompt('Digite o título do repositório: ');
+    const url = prompt('URL: ');
+
+    const response = await api.post('repositories', {
+      title,
+      url,
+    });
+
+    const repository = response.data;
+
+    setRepositories([...repositories, repository]);
   }
 
-  async function handleRemoveRepository(id) {
-    // TODO
-  }
+  async function handleRemoveRepository(id) {}
 
   return (
     <div>
