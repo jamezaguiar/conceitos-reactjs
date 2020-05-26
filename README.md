@@ -12,7 +12,7 @@
 
 Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
 
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
+Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio <https://github.com/jamezaguiar/conceitos-nodejs>
 
 Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` no seu terminal para instalar todas as dependências e já estará pronto para iniciar.
 
